@@ -17,11 +17,10 @@ const AiBar = () => {
         <p className="ai-info">
           Based On Your Website & Traffic Trends, Tru-AI Optimises Your Website
         </p>
-        
-            <a class="example_a" href="add-website-here" target="_blank">
-              Learn More
-            </a>
-         
+
+        <a class="example_a" href="add-website-here" target="_blank">
+          Learn More
+        </a>
       </div>
 
       <div className="video-cont">
@@ -30,7 +29,7 @@ const AiBar = () => {
           autoPlay
           muted
           loop
-          width="100%" 
+          width="100%"
           height="auto"
         ></video>
       </div>
