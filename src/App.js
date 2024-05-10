@@ -7,6 +7,7 @@ import Services from './components/Services';
 import AiBar from './components/AiBar';
 import Vision from './components/Vision';
 import WhyToChoose from './components/WhyToChoose';
+import Solutions from './components/Solutions';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Services/>
       <AiBar/>
       <WhyToChoose/>
+      <Solutions/>
       <Vision/>
       
     </div>
