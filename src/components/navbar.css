@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  height: 93px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem 0;
+  z-index: 99;
+  transition: 0.5s;
+}
+.container {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-headings {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+.nav-active {
+  font-weight: bolder;
+  background: var(
+    --gr-4,
+    linear-gradient(54deg, #0091ff 0, #9cfeff 100%)
+  ) !important;
+  color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
+.nav-link {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  font-weight: normal;
+}
+
+.nav-link:hover {
+  font-weight: 700;
+}
+
+.nav-active {
+  font-weight: 500;
+}
+.btn-dark {
+  background: transparent;
+  border: 0;
+  font-size: 1.5rem;
+}
+.home-container {
+  height: calc(100vh - 90px);
+}
+.coverPage-cont {
+  width: 100%;
+  height: 90vh;
+  background-image: url("https://lenscorp.ai/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdetwrhe0k%2Fimage%2Fupload%2Fv1691730929%2Flenscorp-website%2FDesktop_-_23_u3ypg0.jpg&w=128&q=75");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  padding-left: 11.5%; /* Adjust as needed */
+}
+
+.fore-front-text {
+  width: 68%;
+  font-size: 64px;
+  margin-top: 5.7rem;
+  font-weight: 700;
+  margin-bottom: 28px;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  text-align: left;
+}
+
+.fore-font-sub-text {
+  width: 60%;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: 500;
+  font-size: 1.2rem;
+  z-index: 30;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  margin-left: -9.5%;
+}
+
+.button_cont {
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+  margin-top: 10px;
+}
+
+.example_a {
+  color: #fff !important;
+  text-decoration: none;
+  background: black !important;
+  padding: 10px 32px;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: ease all 0.5s;
+}
+
+.example_a:hover {
+  background: #fff !important;
+  color: black !important;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}

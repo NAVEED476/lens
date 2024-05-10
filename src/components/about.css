@@ -1,0 +1,110 @@
+.about-cont {
+  width: 100%;
+  height: 100vh;
+  background-color: #fcfbf7 !important;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.about-us-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 6rem 0rem 2rem 0rem;
+}
+
+.about-us {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.under-line {
+  width: 165px;
+  height: 8px;
+  margin-bottom: 3rem;
+  border-radius: 1000px;
+  background: var(--gr-4, linear-gradient(54deg, #0091ff 0, #9cfeff 100%));
+}
+
+.welcome-cont {
+  width: 80%;
+  height: 70vh;
+  background: #e2f2ff !important;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  padding: 10px;
+  transition: transform 0.4s ease;
+  /* margin: 0; */
+}
+.welcome-cont:hover {
+  transform: scale(1.07); /* Apply scale transformation on hover */
+}
+.welcome-lens {
+  margin-bottom: 2rem;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+}
+.left-cont {
+  width: 57%;
+  text-align: left;
+  margin-left: 3%;
+  margin-top: -4rem;
+}
+.right-cont {
+  width: 47%;
+  height: 450px;
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2.5rem;
+}
+.welcome-sub-text {
+  color: var(--aboutPara);
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 2rem;
+  opacity: 0.8;
+  padding: 0.2rem;
+  width: 85%;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+.right-cont img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  border: 10px solid white;
+}
+.example_a {
+  color: black;
+  text-decoration: none;
+  background: transparent;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border: 1px solid black;
+}
+
+.example_a:hover {
+  background: #fff;
+  color: black;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
