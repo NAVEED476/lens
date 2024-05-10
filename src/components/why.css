@@ -43,3 +43,27 @@
     width: 58%;
     margin-bottom: 4rem;
   }
+
+  .solutions{
+    width: 50%;
+    /* height: 300px; */
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 20px;
+  }
+
+  li{
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    margin-bottom:10px;
+    font-size: 18px;
+  }
+.check-Icon{
+    font-weight: 900;
+    font-size: 18px;
+    margin-left: 14px;
+    font-size: bold;
+}
