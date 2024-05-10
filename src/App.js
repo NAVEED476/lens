@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import CoverPage from './components/CoverPage';
 import About from './components/About';
 import Services from './components/Services';
+import AiBar from './components/AiBar';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <CoverPage/>
       <About/>
       <Services/>
+      <AiBar/>
     </div>
   );
 }
