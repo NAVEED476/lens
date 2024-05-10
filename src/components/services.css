@@ -1,0 +1,201 @@
+.services-cont {
+  width: 100%;
+  background: var(--gr-4, linear-gradient(54deg, #e2f2f2 0, #9cfeff 100%));
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+.servie-us-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 6rem 0rem 2rem 0rem;
+}
+
+.service-moto{
+    width: 100%;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+.service-us {
+  color: var(--primary-color);
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.under-line {
+  width: 140px;
+  height: 8px;
+  margin-bottom: 3rem;
+  border-radius: 1000px;
+  background: var(--gr-4, linear-gradient(54deg, #0091ff 0, #9cfeff 100%));
+}
+.services-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-box {
+  width: 480px;
+  height: 350px;
+  margin: 5px;
+  margin-top: 20px;
+  transition: all ease 0.5s;
+  background: #fff;
+  padding: 20px;
+  text-align: left;
+  border-radius: 16px;
+}
+
+.service-desc {
+  font-size: 18px;
+  line-height: 2;
+  font-family: "Poppins", sans-serif;
+}
+
+.service-box1:hover {
+  border: 1px solid rgb(34, 193, 195);
+  transform: scale(1.04);
+  background: rgb(255,255,255);
+background: linear-gradient(245deg, rgba(255,255,255,1) 30%, rgba(10,104,71,1) 94%);
+}
+
+.service-box-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.numeric {
+  font-size: 88px;
+  color: #dddddd;
+}
+.service-name {
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -20px;
+  margin-top: 40px;
+  transition: margin-left 0.3s;
+  color: rgb(1, 201, 155);
+  font-family: "Poppins", sans-serif;
+}
+
+.service-box:hover .service-name {
+  margin-left: 20px;
+  font-size: 40px;
+  color: #dddddd;
+}
+
+.value-color {
+  color: #dddddd;
+}
+
+.service-box:hover .value-color {
+  color: rgb(1, 201, 155);
+}
+
+.service-name2 {
+  color: #73dade;
+}
+.service-box:hover .value-color2 {
+  color: #73dade;
+}
+
+.service-box2:hover {
+  transform: scale(1.04);
+  border: 1px solid #73dade;
+  background: rgb(115,218,222);
+  background: linear-gradient(245deg, rgba(115,218,222,1) 1%, rgba(255,255,255,1) 61%);
+}
+
+.value-color3 {
+  color: #dddddd;
+}
+
+.service-box:hover .value-color3 {
+  color: red;
+}
+.service-name3 {
+  color: red;
+}
+
+.service-name3 {
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -105px;
+  margin-top: 20px;
+  transition: margin-left 0.3s;
+  color: red;
+  font-family: "Poppins", sans-serif;
+}
+
+.service-box:hover .service-name3 {
+  margin-left: 20px;
+  color: #dddddd;
+  text-align: left;
+}
+.service-box3:hover {
+    border: 1px solid red;
+    transform: scale(1.04);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    245deg,
+    rgba(255, 255, 255, 1) 73%,
+    rgba(114, 35, 35, 1) 100%
+  );
+}
+
+.service-box4:hover {
+  transform: scale(1.04);
+  border: 2px solid #ff8c32;
+}
+
+.service-name4 {
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -25px;
+  margin-top: 20px;
+  transition: margin-left 0.3s;
+  color: #ff8c32;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+.service-box:hover .value-color4 {
+  color: #ff8c32;
+}
+
+.service-box:hover .service-name4 {
+  margin-left: 20px;
+  font-size: 40px;
+  color: #dddddd;
+}
+.service-box4:hover{
+    background: rgb(243,202,82);
+    background: linear-gradient(245deg, rgba(243,202,82,1) 10%, rgba(255,255,255,1) 100%);
+}

@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div className="about-cont">
       <div className="about-us-cont">
-      <h1 className="about-us">About Us</h1>
-      <div className="under-line"></div>
+        <h1 className="about-us">About Us</h1>
+        <div className="under-line"></div>
       </div>
       <div className="welcome-cont">
         <div className="left-cont">
