@@ -5,6 +5,8 @@ import CoverPage from './components/CoverPage';
 import About from './components/About';
 import Services from './components/Services';
 import AiBar from './components/AiBar';
+import Vision from './components/Vision';
+import WhyToChoose from './components/WhyToChoose';
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
       <About/>
       <Services/>
       <AiBar/>
+      <WhyToChoose/>
+      <Vision/>
+      
     </div>
   );
 }
