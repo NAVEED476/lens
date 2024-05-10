@@ -4,19 +4,17 @@ import { RiGroupFill } from "react-icons/ri";
 
 const Vision = () => {
   return (
-    <div>
-      <div className="vision-cont">
-        <h1 className="vision-us">OUR VISION</h1>
-        <div className="under-line"></div>
-        <h1 className="vision-moto">AI for Social Good</h1>
-        <p className="vision-mission">
-          Explainable AI (XAI) is an emerging subject of machine learning
-          research that refers to strategies that try to provide transparency to
-          typically opaque AI models and their predictions.
-        </p>
-      </div>
+    <div className="vision-cont">
+      <h1 className="vision-us">OUR VISION</h1>
+      <div className="under-line"></div>
+      <h1 className="vision-moto">AI for Social Good</h1>
+      <p className="vision-mission">
+        Explainable AI (XAI) is an emerging subject of machine learning research
+        that refers to strategies that try to provide transparency to typically
+        opaque AI models and their predictions.
+      </p>
       <div className="devider">
-        <div>
+        <div className="devider-box">
           <div className="vision-role">
             <h3 className="q-title">Diversity & Fairness</h3>
             <span className="subtitle">
@@ -26,15 +24,25 @@ const Vision = () => {
               cognitive biases.
             </span>
           </div>
-          <div>
+          <div className="dot-line">
             <span>
               <RiGroupFill />
             </span>
             <span className="dotted-line"></span>
           </div>
+          <div className="empty-box"></div>
         </div>
 
-        <div>
+        <div className="devider-box">
+          <div className="empty-box"></div>
+
+          <div className="dot-line">
+            <span>
+              <RiGroupFill />
+            </span>
+            <span className="dotted-line"></span>
+          </div>
+
           <div className="vision-role">
             <h3 className="q-title">Regulatory Compliance</h3>
             <span className="subtitle">
@@ -45,15 +53,9 @@ const Vision = () => {
               transparency and explainability.
             </span>
           </div>
-          <div>
-            <span>
-              <RiGroupFill />
-            </span>
-            <span className="dotted-line"></span>
-          </div>
         </div>
 
-        <div>
+        <div className="devider-box">
           <div className="vision-role">
             <h3 className="q-title">Code of Ethics</h3>
             <span className="subtitle">
@@ -64,12 +66,13 @@ const Vision = () => {
               world a safer, better place for everyone.
             </span>
           </div>
-          <div>
+          <div className="dot-line">
             <span>
               <RiGroupFill />
             </span>
             <span className="dotted-line"></span>
           </div>
+          <div className="empty-box"></div>
         </div>
       </div>
     </div>

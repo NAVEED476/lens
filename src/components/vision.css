@@ -44,12 +44,16 @@
     margin-bottom: 4rem;
   }
 
+ 
+
   .devider{
-    display: grid;
-    grid-template-columns: .5fr;
+    width: 800px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    box-sizing: border-box;
     font-family: Poppins, sans-serif;
+    flex-direction: column;
   }
 
   .q-title{
@@ -71,6 +75,8 @@
     margin: 1rem 0;
     color: #8a8a8a;
     transition: .3s;
+    text-align: left;
+    margin-left: 10px;
   }
 
   .dotted-line{
@@ -81,4 +87,22 @@
         border-left: 2px dashed var(--border);
         transform: translate(27.5px, -3px);
     
+  }
+
+  .devider-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .vision-role{
+    width: 45%;
+  }
+
+  .dot-line{
+    width: 5%;
+    border: 3px solid red;
+  }
+  .empty-box{
+    width: 45%;
   }
