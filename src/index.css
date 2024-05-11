@@ -14,3 +14,22 @@ code {
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 5px !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(26,146,162);
+background: -moz-linear-gradient(356deg, rgba(26,146,162,1) 82%, rgba(255,255,255,1) 100%);
+background: -webkit-linear-gradient(356deg, rgba(26,146,162,1) 82%, rgba(255,255,255,1) 100%);
+background: linear-gradient(356deg, rgba(26,146,162,1) 82%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a92a2",endColorstr="#ffffff",GradientType=1);
+  border-radius: 5px !important;
+}

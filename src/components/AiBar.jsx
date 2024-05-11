@@ -13,7 +13,7 @@ const AiBar = () => {
       <div className="ai-cont2">
         <h1 className="meet-ai">Meet Tru-AI</h1>
         <h2 className="d-c-d">Design. Create. Deploy.</h2>
-        <h3>the Future of AI | Power to EDIT</h3>
+        <h3 className="the-future">the Future of AI | Power to EDIT</h3>
         <p className="ai-info">
           Based On Your Website & Traffic Trends, Tru-AI Optimises Your Website
         </p>

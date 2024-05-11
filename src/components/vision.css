@@ -48,7 +48,6 @@
 
   .devider{
     width: 800px;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,7 +100,6 @@
 
   .dot-line{
     width: 5%;
-    border: 3px solid red;
   }
   .empty-box{
     width: 45%;

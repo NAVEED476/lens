@@ -61,6 +61,21 @@
   font-size: 64px;
   margin-bottom: 10px;
   color: #fff;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200%;
+  animation: TruAi_background-pan__wS4NA 2s linear infinite;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #9747ff;
+  --tw-gradient-from-position: 0%;
+  --tw-gradient-to: #9747ff;
+  --tw-gradient-stops: var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+  --tw-gradient-via: #2f80ed;
+  --tw-gradient-via-position: 50%;
+  --tw-gradient-stops: var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+  --tw-gradient-to: #ee216b;
+  --tw-gradient-to-position: 100%;
 }
 .d-c-d {
   font-size: 24px;
@@ -73,6 +88,26 @@
   margin-bottom: 10px;
   color: #fff;
   font-size: 16px;
+  
+}
+
+.the-future{
+
+  color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200%;
+    animation: TruAi_background-pan__wS4NA 2s linear infinite;
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #9747ff;
+    --tw-gradient-from-position: 0%;
+    --tw-gradient-to: #9747ff;
+    --tw-gradient-stops: var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+    --tw-gradient-via: #2f80ed;
+    --tw-gradient-via-position: 50%;
+    --tw-gradient-stops: var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+    --tw-gradient-to: #ee216b;
+    --tw-gradient-to-position: 100%;
 }
 
 .example_a {
