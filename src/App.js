@@ -13,6 +13,7 @@ import NewFigures from './components/NewFigures';
 import Slider from './components/Slider';
 import GetInTouch from './components/GetInTouch';
 import Footer from './components/Footer';
+import Blogs from './components/Blogs';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <WhyToChoose/>
       <Solutions/>
       <Vision/>
+      <Blogs/>
       <Slider/>
       <NewFigures/>
       <GetKnow/>

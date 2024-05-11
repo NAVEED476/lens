@@ -19,7 +19,7 @@ const CoverPage = () => {
         </h3>
 
         <div class="button_cont" align="center">
-          <a class="example_a" href="add-website-here" target="_blank">
+          <a class="coverpage-btn" href="add-website-here" target="_blank">
            Learn More
           </a>
         </div>

@@ -98,7 +98,7 @@
   z-index: 30;
   text-align: left;
   font-family: "Poppins", sans-serif;
-  margin-left: -9.5%;
+  margin-left: -8.5%;
 }
 
 .button_cont {
@@ -108,7 +108,7 @@
   margin-top: 0px;
 }
 
-.example_a {
+.coverpage-btn {
   color: #fff !important;
   text-decoration: none;
   background: black !important;
@@ -119,9 +119,11 @@
   cursor: pointer;
   font-size: 1.2rem;
   transition: ease all 0.5s;
+  margin-top:1.5rem;
+  margin-left: 4px;
 }
 
-.example_a:hover {
+.coverpage-btn:hover {
   background: #fff !important;
   color: black !important;
   letter-spacing: 1px;
