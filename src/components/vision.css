@@ -88,11 +88,20 @@
     
   }
 
-  .devider-box{
+  .devider-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+    transition: all 0.5s ease;
+}
+
+.vision-role:hover {
+    transform: scale(1.04);
+}
+
+.devider-box:hover{
+  transform: scale(1.05); 
+}
 
   .vision-role{
     width: 45%;

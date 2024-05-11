@@ -1,6 +1,9 @@
 import React from "react";
 import "./vision.css";
 import { RiGroupFill } from "react-icons/ri";
+import { MdOutlineDiversity3 } from "react-icons/md";
+import { FaBalanceScale } from "react-icons/fa";
+
 
 const Vision = () => {
   return (
@@ -26,7 +29,7 @@ const Vision = () => {
           </div>
           <div className="dot-line">
             <span>
-              <RiGroupFill />
+            <MdOutlineDiversity3 />
             </span>
             <span className="dotted-line"></span>
           </div>
@@ -68,7 +71,8 @@ const Vision = () => {
           </div>
           <div className="dot-line">
             <span>
-              <RiGroupFill />
+            <FaBalanceScale />
+
             </span>
             <span className="dotted-line"></span>
           </div>

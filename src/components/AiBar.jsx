@@ -12,6 +12,7 @@ const AiBar = () => {
       </div>
       <div className="ai-cont2">
         <h1 className="meet-ai">Meet Tru-AI</h1>
+        <img className="line-img" src="https://lenscorp.ai/_next/static/media/underline.27e9f7f7.svg" alt="" />
         <h2 className="d-c-d">Design. Create. Deploy.</h2>
         <h3 className="the-future">the Future of AI | Power to EDIT</h3>
         <p className="ai-info">
