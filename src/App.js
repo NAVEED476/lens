@@ -12,6 +12,7 @@ import GetKnow from './components/GetToKnow';
 import NewFigures from './components/NewFigures';
 import Slider from './components/Slider';
 import GetInTouch from './components/GetInTouch';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <NewFigures/>
       <GetKnow/>
       <GetInTouch/>
+      <Footer/>
     </div>
   );
 }

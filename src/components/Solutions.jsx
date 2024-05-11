@@ -4,7 +4,7 @@ import "./solutions.css";
 const Solutions = () => {
   return (
     <div className="solution-cards">
-      <div className="card">
+      <div className="card card1">
         <div className="card-name">Exclusive Rights</div>
         <img
           className="card-image"
@@ -17,7 +17,7 @@ const Solutions = () => {
         </div>
       </div>
 
-      <div className="card">
+      <div className="card card2">
         <div className="card-name">Research Driven</div>
         <img
           className="card-image"
@@ -30,7 +30,7 @@ const Solutions = () => {
         </div>
       </div>
 
-      <div className="card">
+      <div className="card card3">
         <div className="card-name">Plug-and-Play</div>
         <img
           className="card-image"
@@ -44,7 +44,7 @@ const Solutions = () => {
         </div>
       </div>
 
-      <div className="card">
+      <div className="card card4">
         <div className="card-name">Lifetime Support</div>
         <img
           className="card-image"

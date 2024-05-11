@@ -60,9 +60,11 @@
   gap: 2rem;
 }
 .showPara {
+    transition: ease all 0.5s ;
   margin-top: 1rem;
   width: 35vw;
   color: gray;
+  text-align: left;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   letter-spacing: 1px;

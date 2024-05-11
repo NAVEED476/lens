@@ -48,3 +48,37 @@
   text-align: left;
   font-family: Poppins, sans-serif
 }
+
+
+.card1:hover{
+  background: rgb(255,255,255);
+background: -moz-linear-gradient(356deg, rgba(255,255,255,1) 14%, rgba(72,163,135,1) 62%);
+background: -webkit-linear-gradient(356deg, rgba(255,255,255,1) 14%, rgba(72,163,135,1) 62%);
+background: linear-gradient(356deg, rgba(255,255,255,1) 14%, rgba(72,163,135,1) 62%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#48a387",GradientType=1);
+}
+
+.card2:hover{
+  background: rgb(255,255,255);
+background: -moz-linear-gradient(356deg, rgba(255,255,255,1) 14%, rgba(63,191,239,1) 62%);
+background: -webkit-linear-gradient(356deg, rgba(255,255,255,1) 14%, rgba(63,191,239,1) 62%);
+background: linear-gradient(356deg, rgba(255,255,255,1) 14%, rgba(63,191,239,1) 62%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#3fbfef",GradientType=1);
+}
+
+.card3:hover{
+  background: rgb(255,255,255);
+background: -moz-linear-gradient(356deg, rgba(255,255,255,1) 14%, rgba(239,165,167,1) 62%);
+background: -webkit-linear-gradient(356deg, rgba(255,255,255,1) 14%, rgba(239,165,167,1) 62%);
+background: linear-gradient(356deg, rgba(255,255,255,1) 14%, rgba(239,165,167,1) 62%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#efa5a7",GradientType=1);
+}
+
+.card4:hover{
+  background: rgb(255,255,255);
+background: -moz-linear-gradient(356deg, rgba(255,255,255,1) 14%, rgba(236,190,149,1) 62%);
+background: -webkit-linear-gradient(356deg, rgba(255,255,255,1) 14%, rgba(236,190,149,1) 62%);
+background: linear-gradient(356deg, rgba(255,255,255,1) 14%, rgba(236,190,149,1) 62%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ecbe95",GradientType=1);
+}
+
