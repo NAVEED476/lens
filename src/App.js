@@ -8,6 +8,10 @@ import AiBar from './components/AiBar';
 import Vision from './components/Vision';
 import WhyToChoose from './components/WhyToChoose';
 import Solutions from './components/Solutions';
+import GetKnow from './components/GetToKnow';
+import NewFigures from './components/NewFigures';
+import Slider from './components/Slider';
+import GetInTouch from './components/GetInTouch';
 
 function App() {
   return (
@@ -20,7 +24,10 @@ function App() {
       <WhyToChoose/>
       <Solutions/>
       <Vision/>
-      
+      <Slider/>
+      <NewFigures/>
+      <GetKnow/>
+      <GetInTouch/>
     </div>
   );
 }
