@@ -4,7 +4,6 @@ import { RiGroupFill } from "react-icons/ri";
 import { MdOutlineDiversity3 } from "react-icons/md";
 import { FaBalanceScale } from "react-icons/fa";
 
-
 const Vision = () => {
   return (
     <div className="vision-cont">
@@ -29,7 +28,7 @@ const Vision = () => {
           </div>
           <div className="dot-line">
             <span>
-            <MdOutlineDiversity3 />
+              <MdOutlineDiversity3 className="svg-font"/>
             </span>
             <span className="dotted-line"></span>
           </div>
@@ -41,7 +40,7 @@ const Vision = () => {
 
           <div className="dot-line">
             <span>
-              <RiGroupFill />
+              <RiGroupFill  className="svg-font"/>
             </span>
             <span className="dotted-line"></span>
           </div>
@@ -71,8 +70,7 @@ const Vision = () => {
           </div>
           <div className="dot-line">
             <span>
-            <FaBalanceScale />
-
+              <FaBalanceScale  className="svg-font"/>
             </span>
             <span className="dotted-line"></span>
           </div>

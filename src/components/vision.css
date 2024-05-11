@@ -113,3 +113,11 @@
   .empty-box{
     width: 45%;
   }
+
+  .svg-font{
+    font-size: 52px;
+    border: 4px solid black;
+    border-radius: 50px ;
+    padding: 4px;
+    margin-right: 10px;
+  }

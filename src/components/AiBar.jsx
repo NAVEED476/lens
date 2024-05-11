@@ -19,7 +19,7 @@ const AiBar = () => {
           Based On Your Website & Traffic Trends, Tru-AI Optimises Your Website
         </p>
 
-        <a class="example_a" href="add-website-here" target="_blank">
+        <a class="ai-learnmore" href="add-website-here" target="_blank">
           Learn More
         </a>
       </div>
