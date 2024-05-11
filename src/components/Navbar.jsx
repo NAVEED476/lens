@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="container">
         <div className="navbar-inner-logo">
-          <img
+          <img className="lens-logo"
             src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=96&q=75"
             alt="logo"
           />

@@ -1,0 +1,144 @@
+.blogs-container{
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #fcfbf7;
+}
+.blof-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+.blogs-heading{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.9px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.underline-blog{
+  width: 75px;
+  height: 4px;
+  border-radius: 1000px;
+  background: var(--gr-4, linear-gradient(54deg, #0091ff 0, #9cfeff 100%));
+}
+.inHouse{
+  width: 80%;
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 58px;
+  font-weight: 500;
+  width: 65%;
+  margin: 1rem 0;
+}
+.blog-main-container{
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.blog-sub-main{
+  display: flex;
+  position: relative;
+}
+.blog-sub-main2{
+  grid-column: span 2;
+  grid-row: 2;
+}
+.blog-dates{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.new-blog-yellow{
+  width: 150px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 255px;
+  background: #fbc976;
+  filter: blur(70px);
+  position: absolute;
+  right: -70px;
+  bottom: -100px;
+}
+.blog-card{
+  border-radius: 20px;
+  border: 1px solid transparent;
+  padding: 20px 25px;
+  overflow: hidden;
+  background: #ffffff;
+}
+.blog-card-container{
+  display: flex;
+  height: 90%;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+  transition: .3s;
+}
+.card-title{
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36.8px;
+  letter-spacing: 1.1px;
+}
+.blog-box{
+  border-radius: 16px;
+  display: flex;
+  padding: 26px 16px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: rgb(255, 246, 205)
+}
+.blog-para{
+  color: #828282;
+  font-size: 16.5px;
+  line-height: 140.7%;
+text-align: left;
+}
+.read-btn{
+  opacity: 0;
+  margin-top: 10px;
+  transition: .5s;
+}
+.blog-card:hover .read-btn {
+  opacity: 1;
+  display: block;
+}
+.read-button{
+  color: #ff5d5b;
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+  padding: 0;
+  position: relative;
+  top: 0;
+  transition: top .5s ease;
+}
+
+.explore{
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: transparent;
+  font-size: 18px;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  transition: .3s;
+}
+.explore:hover {
+  background-color: black;
+  color: white; 
+}
