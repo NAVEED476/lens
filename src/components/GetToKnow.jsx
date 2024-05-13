@@ -59,7 +59,7 @@ const GetKnow = () => {
         <div className="leftContent">
           {leftContent.map((item, index) => (
             <div key={index} className="box">
-              <div onClick={() => handleClick(item.para)}>
+              <div onClick={() => handleClick(item.para)} className="faq-quesions">
                 <span>{item.specs}</span>
                 <span>{item.icon}</span>
               </div>
@@ -70,7 +70,7 @@ const GetKnow = () => {
         <div className="rightContent">
           {rightContent.map((item, index) => (
             <div key={index} className="box">
-              <div onClick={() => handleClick(item.para)}>
+              <div onClick={() => handleClick(item.para)} className="faq-quesions">
                 <span>{item.specs}</span>
                 <span>{item.icon}</span>
               </div>

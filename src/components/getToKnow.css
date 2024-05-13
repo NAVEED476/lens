@@ -34,10 +34,10 @@
   margin: 1rem 0;
 }
 
-.box div {
+.faq-quesions {
   padding: 1rem;
   border: 1px solid black;
-  width: 35vw;
+  width: 500px;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;

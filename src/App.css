@@ -98,11 +98,17 @@
     gap: 5vw;
     margin-top: 1rem;
     flex-direction: column;
-    width: 100%;
   }
-  .box div {
-    width: 80vw;
-  }
+  .faq-quesions {
+    padding: 1rem;
+    border: 1px solid black;
+    width: 87vw !important;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
 
   .devider {
     width: 87%;
