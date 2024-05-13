@@ -23,6 +23,7 @@
   width: 75px;
   height: 4px;
   border-radius: 1000px;
+  margin-left: 30px;
   background: var(--gr-4, linear-gradient(54deg, #0091ff 0, #9cfeff 100%));
 }
 .inHouse{
