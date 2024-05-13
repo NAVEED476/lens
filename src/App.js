@@ -14,6 +14,7 @@ import Slider from './components/Slider';
 import GetInTouch from './components/GetInTouch';
 import Footer from './components/Footer';
 import Blogs from './components/Blogs';
+import "../src/components/media.css";
 
 function App() {
   return (

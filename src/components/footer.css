@@ -68,3 +68,7 @@
       align-self: center;
       gap: 20px;
   }
+
+  .footer-common:hover {
+    color: #6DC5D1;
+  }
